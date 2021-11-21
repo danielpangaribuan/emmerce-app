@@ -1,0 +1,7 @@
+.admin-product-image {
+    height: 125px;
+}
+
+.admin-product-category {
+    text-transform: capitalize;
+}

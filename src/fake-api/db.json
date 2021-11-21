@@ -1,0 +1,386 @@
+{
+  "users": [
+    {
+      "fullname": "Daniel Parlindungan",
+      "username": "daniel",
+      "email": "dpangaribuan40@gmail.com",
+      "password": "d",
+      "role": "user",
+      "id": 1
+    },
+    {
+      "fullname": "Daniel Parlindungan",
+      "username": "dan",
+      "email": "amzarramadhani@gmail.com",
+      "password": "da",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "fullname": "Bill Gates",
+      "username": "bill",
+      "email": "bill@mail.com",
+      "password": "password",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "fullname": "Daniel Parlindungan",
+      "username": "developer",
+      "email": "op@gmail.com",
+      "password": "sda",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "fullname": "Daniel Parlindungan",
+      "username": "daniel",
+      "email": "dan12@gmail.com",
+      "password": "da",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "fullname": "Daniel Parlindungan",
+      "username": "daniel",
+      "email": "dan12@gmail.com",
+      "password": "da",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "fullname": "jon",
+      "username": "jon",
+      "email": "jon@mail.com",
+      "password": "jon",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "fullname": "Doni Salmanan",
+      "username": "doni",
+      "email": "doni@mail.com",
+      "password": "doni",
+      "role": "user",
+      "id": 8
+    },
+    {
+      "fullname": "Brian S",
+      "username": "brianS",
+      "email": "brian@mail.com",
+      "password": "oasswirdvruab",
+      "role": "user",
+      "id": 9
+    },
+    {
+      "fullname": "Super Admin",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "role": "admin",
+      "id": 11
+    }
+  ],
+  "transactions": [
+    {
+      "userId": 8,
+      "address": "Jalan swadaya",
+      "recipientName": "Doni P",
+      "totalPrice": 3087000,
+      "totalPayment": 3100000,
+      "transactionDate": "21-11-2021",
+      "transactionItems": [
+        {
+          "userId": 8,
+          "productId": 6,
+          "price": 90000,
+          "productName": "Stripe Yellow Navy",
+          "productImage": "https://www.oxfoord.id/wp-content/uploads/2019/08/stripe-yellow-navy-2-247x296.jpg",
+          "quantity": 1,
+          "id": 10
+        },
+        {
+          "userId": 8,
+          "productId": 2,
+          "price": 120000,
+          "productName": "Stripe Light Blue Navy",
+          "productImage": "https://www.oxfoord.id/wp-content/uploads/2020/04/stripe-light-blue-navy-2-2-247x296.jpg",
+          "quantity": 10,
+          "id": 11
+        },
+        {
+          "userId": 8,
+          "productId": 1,
+          "price": 110000,
+          "productName": "Stripe Green Norwich",
+          "productImage": "https://www.oxfoord.id/wp-content/uploads/2020/09/stripe-green-mix-247x296.jpg",
+          "quantity": 15,
+          "id": 12
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 8,
+      "address": "Jalan Doni",
+      "recipientName": "Doni Salmanan",
+      "totalPrice": 231000,
+      "totalPayment": 4000000,
+      "transactionDate": "21-11-2021",
+      "transactionItems": [
+        {
+          "userId": 8,
+          "productId": 1,
+          "price": 110000,
+          "productName": "Stripe Green Norwich",
+          "productImage": "https://www.oxfoord.id/wp-content/uploads/2020/09/stripe-green-mix-247x296.jpg",
+          "quantity": 2,
+          "id": 1
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Stripe Green Norwich",
+      "price": 110000,
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2020/09/stripe-green-mix-247x296.jpg",
+      "description": "Material : Cotton Viscose",
+      "category": "shirt"
+    },
+    {
+      "id": 2,
+      "productName": "Stripe Light Blue Navy",
+      "price": 120000,
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2020/04/stripe-light-blue-navy-2-2-247x296.jpg",
+      "description": "Material : Cotton Viscose",
+      "category": "shirt"
+    },
+    {
+      "id": 3,
+      "productName": "Stripe Maroon Classic Banget",
+      "price": 130000,
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2020/09/stripe-maron-mix-247x296.jpg",
+      "description": "Material : Cotton Viscose",
+      "category": "shirt"
+    },
+    {
+      "id": 4,
+      "productName": "Stripe White Teneu",
+      "price": 90000,
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2020/09/stripe-white-mix-247x296.jpg",
+      "description": "Material : Cotton Viscose",
+      "category": "shirt"
+    },
+    {
+      "id": 5,
+      "productName": "Stripe Navy Yellow",
+      "price": 90000,
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2020/01/stripe-navy-yellow-2-247x296.jpg",
+      "description": "Material : Cotton Viscose",
+      "category": "shirt"
+    },
+    {
+      "id": 6,
+      "productName": "Stripe Yellow Navy",
+      "price": 90000,
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2019/08/stripe-yellow-navy-2-247x296.jpg",
+      "description": "Material : Cotton Viscose",
+      "category": "shirt"
+    },
+    {
+      "id": 7,
+      "productName": "Tidy Jeans Black",
+      "price": 229000,
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/09/jeans-black-a-247x296.jpg",
+      "description": "Material : Cotton Viscose",
+      "category": "pants"
+    },
+    {
+      "id": 8,
+      "productName": "Tidy Jeans Blue",
+      "price": 229000,
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/09/jeans-blue-a-247x296.jpg",
+      "description": "Material : Cotton Viscose",
+      "category": "pants"
+    },
+    {
+      "id": 9,
+      "productName": "Tidy Jeans Blue-Black",
+      "price": 229000,
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/09/jeans-blueblack-a-247x296.jpg",
+      "description": "Material : Cotton Viscose",
+      "category": "pants"
+    },
+    {
+      "id": 10,
+      "productName": "Sweater Outer Green",
+      "price": 229000,
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/01/GO-247x296.jpg",
+      "description": "Material : Cotton Viscose",
+      "category": "outer"
+    },
+    {
+      "id": 11,
+      "productName": "Sweater Outer Army",
+      "price": 229000,
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/01/GS-247x296.jpg",
+      "description": "Material : Cotton Viscose",
+      "category": "outer"
+    },
+    {
+      "id": 12,
+      "productName": "Sweater Outer Orange",
+      "price": 229000,
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/01/OS-247x296.jpg",
+      "description": "Material : Cotton Viscose",
+      "category": "outer"
+    },
+    {
+      "productName": "Doze Short Pants Green",
+      "price": 150000,
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/04/3e-247x296.jpg",
+      "description": "Material: Kertas",
+      "category": "pants",
+      "id": 13
+    },
+    {
+      "productName": "Doze Short Pants Mustard",
+      "price": 150000,
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/04/2e-247x296.jpg",
+      "description": "Material: kapas",
+      "category": "pants",
+      "id": 14
+    }
+  ],
+  "carts": [
+    {
+      "userId": 8,
+      "productId": 1,
+      "price": 110000,
+      "productName": "Stripe Green Norwich",
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2020/09/stripe-green-mix-247x296.jpg",
+      "quantity": 2,
+      "id": 1
+    },
+    {
+      "userId": 8,
+      "productId": 2,
+      "price": 120000,
+      "productName": "Stripe Light Blue Navy",
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2020/04/stripe-light-blue-navy-2-2-247x296.jpg",
+      "quantity": 2,
+      "id": 2
+    },
+    {
+      "userId": 8,
+      "productId": 3,
+      "price": 130000,
+      "productName": "Stripe Maroon Classic Banget",
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2020/09/stripe-maron-mix-247x296.jpg",
+      "quantity": 2,
+      "id": 3
+    },
+    {
+      "userId": 8,
+      "productId": 4,
+      "price": 90000,
+      "productName": "Stripe White Teneu",
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2020/09/stripe-white-mix-247x296.jpg",
+      "quantity": 2,
+      "id": 4
+    },
+    {
+      "userId": 8,
+      "productId": 6,
+      "price": 90000,
+      "productName": "Stripe Yellow Navy",
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2019/08/stripe-yellow-navy-2-247x296.jpg",
+      "quantity": 15,
+      "id": 5
+    },
+    {
+      "userId": 8,
+      "productId": 12,
+      "price": 229000,
+      "productName": "Sweater Outer Orange",
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/01/OS-247x296.jpg",
+      "quantity": 3,
+      "id": 6
+    },
+    {
+      "userId": 8,
+      "productId": 11,
+      "price": 229000,
+      "productName": "Sweater Outer Army",
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/01/GS-247x296.jpg",
+      "quantity": 1,
+      "id": 7
+    },
+    {
+      "userId": 8,
+      "productId": 13,
+      "price": 150000,
+      "productName": "Doze Short Pants Green",
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/04/3e-247x296.jpg",
+      "quantity": 1,
+      "id": 8
+    },
+    {
+      "userId": 8,
+      "productId": 14,
+      "price": 150000,
+      "productName": "Doze Short Pants Mustard",
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/04/2e-247x296.jpg",
+      "quantity": 1,
+      "id": 9
+    },
+    {
+      "userId": 8,
+      "productId": 10,
+      "price": 229000,
+      "productName": "Sweater Outer Green",
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/01/GO-247x296.jpg",
+      "quantity": 1,
+      "id": 10
+    },
+    {
+      "userId": 8,
+      "productId": 9,
+      "price": 229000,
+      "productName": "Tidy Jeans Blue-Black",
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/09/jeans-blueblack-a-247x296.jpg",
+      "quantity": 1,
+      "id": 11
+    },
+    {
+      "userId": 8,
+      "productId": 7,
+      "price": 229000,
+      "productName": "Tidy Jeans Black",
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/09/jeans-black-a-247x296.jpg",
+      "quantity": 1,
+      "id": 12
+    },
+    {
+      "userId": 8,
+      "productId": 8,
+      "price": 229000,
+      "productName": "Tidy Jeans Blue",
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2021/09/jeans-blue-a-247x296.jpg",
+      "quantity": 1,
+      "id": 13
+    },
+    {
+      "userId": 8,
+      "productId": 5,
+      "price": 90000,
+      "productName": "Stripe Navy Yellow",
+      "productImage": "https://www.oxfoord.id/wp-content/uploads/2020/01/stripe-navy-yellow-2-247x296.jpg",
+      "quantity": 1,
+      "id": 14
+    }
+  ]
+}
